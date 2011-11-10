@@ -1,11 +1,11 @@
 #!/usr/bin/env python
-"""This file is part of Vida.
+"""This file is part of SERA.
 --------------------------
 Copyright 2009, Sean T. Hammond
 
-Vida is experimental in nature and is made available as a research courtesy "AS IS," but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+SERA is experimental in nature and is made available as a research courtesy "AS IS," but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
 
-You should have received a copy of academic software agreement along with Vida. If not, see <http://iorek.ice-nine.org/seant/Vida/license.txt>.
+You should have received a copy of academic software agreement along with SERA. If not, see <http://iorek.ice-nine.org/seant/SERA/license.txt>.
 """
 
 import random
@@ -27,7 +27,7 @@ import copy
 import time
 import pickle
 ###append the path to basic data files
-sys.path.append("Vida_Data")
+sys.path.append("SERA_Data")
 import vworldr as worldBasics
 import vplantr as defaultSpecies
 import vgraphics as outputGraphics
@@ -331,7 +331,7 @@ def main():
 		###Important if you want to compare runs
 		if reloadSpeciesData==1:
 			###fileLoc will be different for each species eventually
-			fileLoc="Vida_Data/Default_species.txt"
+			fileLoc="SERA_Data/Default_species.txt"
 			for item in theGarden.soil:
 				item.importPrefs(fileLoc)
 	else:
@@ -727,13 +727,13 @@ def main():
 			#print dataDirectory
 			theArgument="-n '%s' -fs" % (dataDirectory+"Seeds/")
 			print "***sending to Extract: %s" % (theArgument)
-			os.system("python Vida_Data/vextract.py %s" % (theArgument))
+			os.system("python SERA_Data/vextract.py %s" % (theArgument))
 			theArgument="-n '%s' -fs" % (dataDirectory+"Plants/")
 			print "***sending to Extract: %s" % (theArgument)
-			os.system("python Vida_Data/vextract.py %s" % (theArgument))
+			os.system("python SERA_Data/vextract.py %s" % (theArgument))
 			theArgument="-n '%s' -fs" % (dataDirectory+"Corpses/")
 			print "***sending to Extract: %s" % (theArgument)
-			os.system("python Vida_Data/vextract.py %s" % (theArgument))
+			os.system("python SERA_Data/vextract.py %s" % (theArgument))
 
 
 		###final graphics calls
@@ -951,7 +951,7 @@ if __name__ == '__main__':
 		produceStats=1
 	if "-b" in theArguments:
 		if runningInNodeBox:
-			print"***Vida running within NodeBox. Progress bar is disabled.***"
+			print"***SERA running within NodeBox. Progress bar is disabled.***"
 			showProgressBar=0
 		else:
 			showProgressBar=1
