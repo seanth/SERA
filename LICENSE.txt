@@ -1,0 +1,28 @@
+License:
+Academic Software License Agreement
+Sean T. Hammond (Developer) gives permission for you and your laboratory (Institution) to use the SERA Version 0.5 software (SERA). The Developer allows researchers at your Institution to copy and modify SERA, for internal, non-profit research purposes, on the following conditions:
+
+1. The SERA software remains at your Institution and is not published, distributed, or otherwise transferred or made available to other than Institution employees and students involved in research under your supervision.
+
+If you wish to obtain SERA for any commercial purposes, you will need to execute a separate licensing agreement with the Developer and pay a fee. This includes, but is not limited to, using SERA to provide services to outside parties for a fee. In that case please contact:
+
+Sean T. Hammond
+Care of:
+Department of Biology
+MSC03 2020
+1 University of New Mexico
+Albuquerque, NM  87131-0001
+
+2. You retain in SERA and any modifications to SERA, the copyright, trademark, or other notices pertaining to SERA as provided by the Developer.
+
+3. You provide the Developer with feedback on the use of the SERA software in your research, and that the Developer is permitted to use any information you provide in making changes to the SERA software. All bug reports and technical questions shall be sent to Sean T. Hammond, email: sth24@cornell.com.
+
+
+4. You acknowledge that the Developer and its licensees may develop modifications to SERA that may be substantially similar to your modifications of SERA, and that the Developer and its licensees shall not be constrained in any way by you in the Developer's or its licensees' use or management of such modifications. You acknowledge the right of the Developer to prepare and publish modifications to SERA that may be substantially similar or functionally equivalent to your modifications and improvements, and if you obtain patent protection for any modification or improvement to SERA you agree not to allege or enjoin infringement of your patent by the Developer or by any of the Developer's licensees obtaining modifications or improvements to SERA from the Developer.
+
+5. If utilization of the SERA software results in outcomes which will be published, please specify the version of SERA you used and cite source [A] below.
+
+[A] Hammond S. T. and Niklas K. J. (2009) "Emergent properties of plants competing in silico for space and light: Seeing the tree from the forest." American Journal of Botany 96(8):1430-1444.
+
+6. Any risk associated with using the SERA software at your institution is with you and your Institution. SERA is experimental in nature and is made available as a research courtesy "AS IS," without obligation by the Developer to provide accompanying services or support. The Developer AND THE AUTHORS EXPRESSLY DISCLAIM ANY AND ALL WARRANTIES REGARDING THE SOFTWARE, WHETHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES PERTAINING TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
